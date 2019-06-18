@@ -55,11 +55,11 @@ public class ClientWindow {
 		
 		
 		
-		ClientLogin window = new ClientLogin();
-		window.frame.setVisible(true);
-		window.initialize();
-				
-		client = new Client(window.loginNickname.getText(), "localhost", 3306);	
+//		ClientLogin window = new ClientLogin();
+//		window.frame.setVisible(true);
+//		window.initialize();
+//
+		client = new Client("user", "localhost", 3306);
 		
 		initialize();
 		
