@@ -98,4 +98,12 @@ public class ClientRegister {
 		panel.add(btnNewButton);
 	}
 
+	public static String Encrypt(char[] password) {
+
+		String hashcode = "";
+		System.out.println("push second time in home");
+
+	return 	hashcode;
+	}
+
 }
